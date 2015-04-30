@@ -1,0 +1,47 @@
+﻿<Properties StartupItem="AllianceAndroidSample.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Angdroid" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\..\..\..\..\..\..\Program Files (x86)\MSBuild\Xamarin\Android\Xamarin.Android.Common.targets">
+    <Files>
+      <File FileName="..\..\..\..\..\MBProject\Resources\values\styles.xml" Line="9" Column="57" />
+      <File FileName="..\..\..\..\..\MBProject\Properties\AndroidManifest.xml" Line="4" Column="90" />
+      <File FileName="..\..\..\..\..\..\..\..\..\..\Program Files (x86)\MSBuild\Xamarin\Android\Xamarin.Android.Common.targets" Line="675" Column="2" />
+      <File FileName="..\..\..\..\..\MBProject\obj\Debug\android\AndroidManifest.xml" Line="5" Column="1" />
+      <File FileName="..\..\..\..\..\MBProject\Screens\NotesDetails.cs" Line="43" Column="47" />
+      <File FileName="..\..\..\..\..\MBProject\Screens\NotesScreen.cs" Line="10" Column="33" />
+      <File FileName="..\..\..\..\..\MBProject\Adapters\NoteListAdapter.cs" Line="12" Column="29" />
+      <File FileName="..\..\..\..\..\MBProject\DataLayer\MBProjectDatabase.cs" Line="31" Column="50" />
+      <File FileName="..\..\..\..\..\MBProject\DataAccessLayer\About.txt" Line="1" Column="1" />
+      <File FileName="..\..\..\..\..\MBProject\DataAccessLayer\MBProjectRepository.cs" Line="66" Column="29" />
+      <File FileName="..\..\..\..\..\MBProject\BusinessLayer\About.txt" Line="1" Column="1" />
+      <File FileName="..\..\..\..\..\MBProject\BusinessLayer\Note.cs" Line="3" Column="1" />
+      <File FileName="..\..\..\..\..\MBProject\BusinessLayer\Managers\NoteManager.cs" Line="25" Column="39" />
+      <File FileName="..\..\..\..\..\MBProject\BusinessLayer\Contracts\IBusinessEntity.cs" Line="3" Column="20" />
+      <File FileName="..\..\..\..\..\MBProject\BusinessLayer\Contracts\BusinessEntityBase.cs" Line="13" Column="16" />
+      <File FileName="..\..\..\..\..\MBProject\DataLayer\SQLite.cs" Line="43" Column="20" />
+      <File FileName="..\..\..\..\..\MBProject\Resources\menu\menu_notesscreen.xml" Line="5" Column="32" />
+      <File FileName="..\..\..\..\..\MBProject\Resources\menu\menu_detailsscreen.xml" Line="10" Column="35" />
+      <File FileName="..\..\..\..\..\MBProject\packages.config" Line="1" Column="1" />
+      <File FileName="..\..\..\..\..\MBProject\Screens\Activity2.cs" Line="21" Column="72" />
+      <File FileName="..\..\..\..\..\MBProject\Screens\MainActivity.cs" Line="71" Column="105" />
+      <File FileName="..\..\..\..\..\MBProject\Screens\DetailsActivity.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\..\..\MBProject\Resources\anim\slide_in_top.xml" Line="1" Column="1" />
+      <File FileName="..\..\..\..\..\MBProject\Resources\anim\slide_out_bottom.xml" Line="1" Column="1" />
+      <File FileName="..\..\..\..\..\MBProject\Screens\DetailsFragment.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\..\..\MBProject\Screens\SlidingTabStrip.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\..\..\MBProject\Screens\SlidingTabScrollView.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\..\..\MBProject\DataLayer\About.txt" Line="19" Column="1" />
+      <File FileName="..\..\..\..\..\MBProject\Resources\drawable-hdpi\edit_text_style.xml" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True" selected="True">
+          <Node name="AllianceAndroidSample" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

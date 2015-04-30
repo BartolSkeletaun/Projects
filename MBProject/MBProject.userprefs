@@ -1,0 +1,35 @@
+﻿<Properties StartupItem="MBProject\MBProject.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Angdroid" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MBProject\Resources\menu\menu_notesscreen.xml">
+    <Files>
+      <File FileName="MBProject\BusinessLayer\Contracts\BusinessEntityBase.cs" Line="21" Column="1" />
+      <File FileName="MBProject\Screens\Activity2.cs" Line="168" Column="7" />
+      <File FileName="MBProject\Screens\NotesScreen.cs" Line="76" Column="2" />
+      <File FileName="MBProject\ScheduleDetails.cs" Line="63" Column="8" />
+      <File FileName="MBProject\Screens\NotesDetails.cs" Line="6" Column="19" />
+      <File FileName="MBProject\BusinessLayer\Managers\Schedule.cs" Line="1" Column="1" />
+      <File FileName="MBProject\BusinessLayer\Note.cs" Line="1" Column="1" />
+      <File FileName="MBProject\Adapters\ScheduleListAdapter.cs" Line="1" Column="1" />
+      <File FileName="MBProject\Adapters\NoteListAdapter.cs" Line="1" Column="1" />
+      <File FileName="MBProject\BusinessLayer\Managers\NoteManager.cs" Line="1" Column="1" />
+      <File FileName="MBProject\BusinessLayer\Managers\ScheduleManager.cs" Line="1" Column="1" />
+      <File FileName="MBProject\DataAccessLayer\MBProjectRepository.cs" Line="1" Column="1" />
+      <File FileName="MBProject\DataLayer\MBProjectDatabase.cs" Line="1" Column="1" />
+      <File FileName="MBProject\DataLayer\SQLite.cs" Line="25" Column="7" />
+      <File FileName="MBProject\BusinessLayer\Contracts\IBusinessEntity.cs" Line="1" Column="1" />
+      <File FileName="MBProject\Resources\menu\menu_notesscreen.xml" Line="5" Column="32" />
+      <File FileName="MBProject\Resources\menu\menu_detailsscreen.xml" Line="5" Column="33" />
+      <File FileName="MBProject\Resources\values\styles.xml" Line="1" Column="1" />
+      <File FileName="MBProject\SheduleScreen.cs" Line="75" Column="1" />
+      <File FileName="MBProject\Screens\SlidingTabStrip.cs" Line="24" Column="44" />
+      <File FileName="MBProject\Stages.cs" Line="18" Column="14" />
+      <File FileName="MBProject\Screens\DetailsActivity.cs" Line="25" Column="38" />
+      <File FileName="MBProject\Screens\DetailsFragment.cs" Line="41" Column="31" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.MBProject AndroidDesignerPreferredDevice="5.4&quot; FWVGA" AndroidDesignerPreferredTheme="MyTheme" />
+</Properties>

@@ -1,0 +1,6 @@
+C:\Users\barry_000\Desktop\MBProject\MBProject\MBProject\bin\Debug\MBProject.dll
+C:\Users\barry_000\Desktop\MBProject\MBProject\Components\alliance-calendar-component-1.0\lib\android\com.alliance.calendar.dll
+C:\Users\barry_000\Desktop\MBProject\MBProject\packages\MonoDroid.Toolkit.1.1.0.0\lib\MonoAndroid10\com.refractored.monodroidtoolkit.dll
+C:\Users\barry_000\Desktop\MBProject\MBProject\Components\json.net-4.5.11.1\lib\android\Newtonsoft.Json.dll
+C:\Users\barry_000\Desktop\MBProject\MBProject\packages\Xamarin.Android.Support.v4.22.1.1.1\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll
+C:\Users\barry_000\Desktop\MBProject\MBProject\packages\Xamarin.Android.Support.v7.AppCompat.22.1.1.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{FCDA16BA-B8DC-48EE-BACE-75717AA22F4F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MBProject</RootNamespace>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
+    <AssemblyName>MBProject</AssemblyName>
+    <TargetFrameworkVersion>v5.0</TargetFrameworkVersion>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidLinkMode>None</AndroidLinkMode>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\Components\json.net-4.5.11.1\lib\android\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="com.refractored.monodroidtoolkit">
+      <HintPath>..\packages\MonoDroid.Toolkit.1.1.0.0\lib\MonoAndroid10\com.refractored.monodroidtoolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="com.alliance.calendar">
+      <HintPath>..\Components\alliance-calendar-component-1.0\lib\android\com.alliance.calendar.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v4">
+      <HintPath>..\packages\Xamarin.Android.Support.v4.22.1.1.1\lib\MonoAndroid403\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Android.Support.v7.AppCompat">
+      <HintPath>..\packages\Xamarin.Android.Support.v7.AppCompat.22.1.1.1\lib\MonoAndroid403\Xamarin.Android.Support.v7.AppCompat.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Screens\Activity2.cs" />
+    <Compile Include="Screens\DetailsActivity.cs" />
+    <Compile Include="Screens\DetailsFragment.cs" />
+    <Compile Include="Screens\SlidingTabScrollView.cs" />
+    <Compile Include="Screens\SlidingTabStrip.cs" />
+    <Compile Include="Screens\NotesDetails.cs" />
+    <Compile Include="Screens\NotesScreen.cs" />
+    <Compile Include="Adapters\NoteListAdapter.cs" />
+    <Compile Include="DataLayer\SQLite.cs" />
+    <Compile Include="DataLayer\MBProjectDatabase.cs" />
+    <Compile Include="DataAccessLayer\MBProjectRepository.cs" />
+    <Compile Include="BusinessLayer\Note.cs" />
+    <Compile Include="BusinessLayer\Contracts\BusinessEntityBase.cs" />
+    <Compile Include="BusinessLayer\Contracts\IBusinessEntity.cs" />
+    <Compile Include="BusinessLayer\Managers\NoteManager.cs" />
+    <Compile Include="SheduleScreen.cs" />
+    <Compile Include="ScheduleDetails.cs" />
+    <Compile Include="BusinessLayer\Managers\Schedule.cs" />
+    <Compile Include="Adapters\ScheduleListAdapter.cs" />
+    <Compile Include="BusinessLayer\Managers\ScheduleManager.cs">
+      <DependentUpon>About.txt</DependentUpon>
+    </Compile>
+    <Compile Include="Stages.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+    <None Include="packages.config" />
+    <None Include="DataLayer\About.txt" />
+    <None Include="DataAccessLayer\About.txt" />
+    <None Include="BusinessLayer\Managers\About.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\layout\Main.axml" />
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\button_email_style.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\checkbox_style.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\edit_text_style.xml" />
+    <AndroidResource Include="Resources\anim\slide_in_top.xml" />
+    <AndroidResource Include="Resources\anim\slide_out_bottom.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_overflow.png" />
+    <AndroidResource Include="Resources\layout\Frag1Layout.axml" />
+    <AndroidResource Include="Resources\layout\Frag2Layout.axml" />
+    <AndroidResource Include="Resources\layout\Frag3Layout.axml" />
+    <AndroidResource Include="Resources\layout\Frag4Layout.axml" />
+    <AndroidResource Include="Resources\layout\Frag5Layout.axml" />
+    <AndroidResource Include="Resources\layout\Frag6Layout.axml" />
+    <AndroidResource Include="Resources\layout\CustomView.axml" />
+    <AndroidResource Include="Resources\layout\Activity2.axml" />
+    <AndroidResource Include="Resources\layout\Stages.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\backg.png" />
+    <AndroidResource Include="Resources\values\styles.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\backg1.png" />
+    <AndroidResource Include="Resources\layout\NoteDetails.axml" />
+    <AndroidResource Include="Resources\layout\NoteListItem.axml" />
+    <AndroidResource Include="Resources\layout\NotesScreen.axml" />
+    <AndroidResource Include="Resources\menu\menu_detailsscreen.xml" />
+    <AndroidResource Include="Resources\menu\menu_notesscreen.xml" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_addtask.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_delete.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_action_save.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_checkmark.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\ic_launcher.png" />
+    <AndroidResource Include="Resources\layout\ScheduleScreen.axml" />
+    <AndroidResource Include="Resources\layout\ScheduleListItem.axml" />
+    <AndroidResource Include="Resources\layout\ScheduleDetails.axml" />
+    <AndroidResource Include="Resources\drawable-hdpi\Icon.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Resources\drawable-hdpi\" />
+    <Folder Include="Resources\drawable-mdpi\" />
+    <Folder Include="Resources\drawable-xhdpi\" />
+    <Folder Include="Resources\drawable-xxhdpi\" />
+    <Folder Include="Resources\drawable-xxxhdpi\" />
+    <Folder Include="Resources\anim\" />
+    <Folder Include="Resources\menu\" />
+    <Folder Include="Adapters\" />
+    <Folder Include="Screens\" />
+    <Folder Include="DataLayer\" />
+    <Folder Include="DataAccessLayer\" />
+    <Folder Include="BusinessLayer\" />
+    <Folder Include="BusinessLayer\Managers\" />
+    <Folder Include="BusinessLayer\Contracts\" />
+    <Folder Include="Resources\values-v21\" />
+  </ItemGroup>
+  <ItemGroup>
+    <XamarinComponentReference Include="json.net">
+      <Version>4.5.11.1</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="xamandroidsupportv4-18">
+      <Version>20.0.0.4</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="xamandroidsupportv7appcompat">
+      <Version>21.0.3.0</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+    <XamarinComponentReference Include="alliance-calendar-component">
+      <Version>1.0</Version>
+      <Visible>False</Visible>
+    </XamarinComponentReference>
+  </ItemGroup>
+</Project>
